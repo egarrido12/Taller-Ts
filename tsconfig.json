@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",             // Compatibilidad con navegadores modernos
+    "module": "ES6",             // Usa módulos tipo ES6 (import/export)
+    "outDir": "./",              // Salida de archivos JS en la raíz
+    "strict": true,              // Verificación estricta de tipos
+    "esModuleInterop": true      // Permite compatibilidad con módulos CommonJS
+  },
+  "include": ["*.ts"]
+}
